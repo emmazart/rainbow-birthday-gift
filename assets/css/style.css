@@ -28,6 +28,21 @@ ul {
 /* quiz styling */
 
 #button-group {
+    padding: 5px;
     display: flex;
     justify-content: center;
+    /* flex-flow: column wrap; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn {
+    margin: 10px;
+    width: 60%;
+}
+
+.btn:hover {
+    background-color: #83AAFF;
+    border: 1px solid #83AAFF;
 }
