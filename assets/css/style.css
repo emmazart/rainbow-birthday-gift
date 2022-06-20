@@ -24,3 +24,10 @@ h1 > span {
 ul {
     list-style: none;
 }
+
+/* quiz styling */
+
+#button-group {
+    display: flex;
+    justify-content: center;
+}
