@@ -1,5 +1,4 @@
 /* utility classes */
-
 .padding {
     padding: 1rem;
     margin: 1rem;
@@ -14,7 +13,6 @@
 }
 
 /* for title span elements */
-
 h1 > span {
     font-style: italic;
     font-weight: lighter;
@@ -34,7 +32,6 @@ audio {
 }
 
 /* quiz styling */
-
 #button-group {
     padding: 5px;
     display: flex;
@@ -53,4 +50,29 @@ audio {
 .btn:hover {
     background-color: navy;
     border: 1px solid navy;
+}
+
+/* secondary page form styles */
+#form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form > button {
+    align-items: center;
+}
+
+textarea {
+    margin: 10px;
+    resize: none;
+    width: 300px;
+    height: 150px;
+    align-items: center;
 }
