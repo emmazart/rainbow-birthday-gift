@@ -5,7 +5,6 @@ var quizQuestion = document.querySelector("#quiz-question"); // select h2 for qu
 var buttonGroupEl = document.getElementById("button-group"); // select button group container
 var quizContainer = document.getElementById("quiz-container"); // holds all quiz elements
 var currentQuestionIndex = 0; // for manually iterating through quiz aqusetions array
-// var questionsArr = require('./questions'); // import questions from questions.js
 var questionText = document.getElementById("question-text"); 
 var bucketList = [];
 
