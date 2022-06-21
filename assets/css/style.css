@@ -25,6 +25,14 @@ ul {
     list-style: none;
 }
 
+/* audio element styles */
+audio {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    border-bottom: dotted navy;
+}
+
 /* quiz styling */
 
 #button-group {
@@ -39,10 +47,10 @@ ul {
 
 .btn {
     margin: 10px;
-    width: 60%;
+    width: 20%;
 }
 
 .btn:hover {
-    background-color: #83AAFF;
-    border: 1px solid #83AAFF;
+    background-color: navy;
+    border: 1px solid navy;
 }

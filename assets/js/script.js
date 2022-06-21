@@ -56,86 +56,86 @@ var questionsArr = [
         answer: ["Yes", "No"],
         listText: "write a book"
     },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // },
-    // {
-    //     answer: ["Yes", "No"],
-    //     listText: "go skydiving"
-    // }
+    {
+        answer: ["Yes", "No"],
+        listText: "try to break a world record (silly or serious)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "fly in a hot air balloon"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "have a fancy picnic"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "take a train cross country (or between countries in Europe)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "stay in an overwater bungalow in Bora Bora"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "learn how to pilot a drone"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "watch every movie on the American Film Institue's Top 100"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "start a podcast"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "create a piece of public art (mural, yarnbombing, etc.)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "reach out to someone who intimidates you"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "plant a tree"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "order everything off the menu at a restaurant (a SMALL one)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "meet a penguin"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "play a game of paintball"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "go sand dune surfing"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "swim with dolphins"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "hug a redwood"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "take a beginner art class (pottery, painting, jewelry making)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "write a song"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "be a game show contestant"
+    }
 ];
 
 // ---------- DEFINE LOAD QUESTION TO RUN THROUGH QUIZ QUESTIONS ARRAY ---------- //
