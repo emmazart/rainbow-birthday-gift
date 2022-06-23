@@ -32,18 +32,30 @@ audio {
 }
 
 /* quiz styling */
-#button-group {
-    padding: 5px;
+#quiz-container {
     display: flex;
     justify-content: center;
-    /* flex-flow: column wrap; */
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
 }
 
+#button-group {
+    padding: 5px;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    align-items: center; */
+}
+
 .btn {
     margin: 10px;
+    width: 80%;
+}
+
+.btn-start {
     width: 20%;
 }
 

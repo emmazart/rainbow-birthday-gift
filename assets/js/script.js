@@ -11,139 +11,133 @@ var questionText = document.getElementById("question-text");
 var bucketList = [];
 
 // ----------- DECLARE GLOBAL VARIABLES END ---------- //
-var questionsArr = [
-        {
-            answer: ["Yes", "No"],
-            listText: "go skydiving"
-        },
-]
 
-// var questionsArr = [
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "go skydiving"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "run or bike a 5k"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "go to a drive in movie"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "do 10 random acts of kindness"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "try 10 new recipes this year"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "go hanggliding"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "go on a sunrise hike"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "take a cooking class in another country"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "see a favorite musician play live"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "learn a new sport"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "write a book"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "try to break a world record (silly or serious)"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "fly in a hot air balloon"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "have a fancy picnic"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "take a train cross country (or between countries in Europe)"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "stay in an overwater bungalow in Bora Bora"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "learn how to pilot a drone"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "watch every movie on the American Film Institue's Top 100"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "start a podcast"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "create a piece of public art (mural, yarnbombing, etc.)"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "reach out to someone who intimidates you"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "plant a tree"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "order everything off the menu at a restaurant (a SMALL one)"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "meet a penguin"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "play a game of paintball"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "go sand dune surfing"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "swim with dolphins"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "hug a redwood"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "take a beginner art class (pottery, painting, jewelry making)"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "write a song"
-//     },
-//     {
-//         answer: ["Yes", "No"],
-//         listText: "be a game show contestant"
-//     }
-// ];
+var questionsArr = [
+    {
+        answer: ["Yes", "No"],
+        listText: "go skydiving"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "run or bike a 5k"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "go to a drive in movie"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "do 10 random acts of kindness"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "try 10 new recipes this year"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "go hanggliding"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "go on a sunrise hike"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "take a cooking class in another country"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "see a favorite musician play live"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "learn a new sport"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "write a book"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "try to break a world record (silly or serious)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "fly in a hot air balloon"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "have a fancy picnic"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "take a train cross country (or between countries in Europe)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "stay in an overwater bungalow in Bora Bora"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "learn how to pilot a drone"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "watch every movie on the American Film Institue's Top 100"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "start a podcast"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "create a piece of public art (mural, yarnbombing, etc.)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "reach out to someone who intimidates you"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "plant a tree"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "order everything off the menu at a restaurant (a SMALL one)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "meet a penguin"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "play a game of paintball"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "go sand dune surfing"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "swim with dolphins"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "hug a redwood"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "take a beginner art class (pottery, painting, jewelry making)"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "write a song"
+    },
+    {
+        answer: ["Yes", "No"],
+        listText: "be a game show contestant"
+    }
+];
 
 // ---------- DEFINE LOAD QUESTION TO RUN THROUGH QUIZ QUESTIONS ARRAY ---------- //
 var loadQuestion = function () {
@@ -203,37 +197,29 @@ var loadQuestion = function () {
   var endQuiz = function () {
 
     // restore button to original button
-    buttonGroupEl.innerHTML = '<input class="btn btn-primary btn-start" type="submit" value="Start Over">'; // restore to original html
+    buttonOriginal.style.display = "block";
+    buttonGroupEl.innerHTML = "";
 
     // restore start quiz wording
-    quizQuestion.innerHTML = "<h1 id='quiz-question' class='text-center'>Let's Make a <span id='question-text'>Bucket List!</span></h1>";
+    quizQuestion.innerHTML = "<h1 id='quiz-question' class='text-center'>Would you like to <span id='question-text'>make a new list?</span></h1>";
 
-    // display new bucketlist & save to storage
-    listContainer.style.display = "block";
-
-    // loop through bucket list array
-    for (var x of bucketList) {
-        var item = document.createElement("li");
-        item.innerText = x;
-        item.classList = "text-center";
-        bucketListEl.appendChild(item);
-    }
-
+    // set local storage
     localStorage.setItem("bucketlist", JSON.stringify(bucketList));
+
+    window.location.reload();
+
+    // start loop again
+    loadBucketList();
 };
   
 var startQuiz = function () {
+  currentQuestionIndex = 0; // for manually iterating through quiz aqusetions array
+
   console.log('click')
   // hide introP and buttonOriginal
   buttonOriginal.style.display = "none";
   introP.style.display = "none";
   questionText.style.display = "block";
-
-  // if there is a list in local storage, render to page
-//   var currentList = JSON.parse(localStorage.getItem("bucketlist"));
-//   if (currentList) {
-//       loadBucketList(currentList);
-//   }
 
   // call loadQuestion function to begin quiz
   loadQuestion();
@@ -241,11 +227,35 @@ var startQuiz = function () {
 
 function loadBucketList(list) {
 
+    var currentList = JSON.parse(localStorage.getItem("bucketlist"));
+
+    // if exists in local storage
+    if (currentList) {
+        // render to page
+        bucketListEl.innerHTML = "";
+        listContainer.style.display = "block";
+
+        // loop through bucket list array
+        for (var x of currentList) {
+            var item = document.createElement("li");
+            item.innerText = x;
+            item.classList = "text-center";
+            bucketListEl.appendChild(item);
+        }
+
+        // render "make new bucket list" option
+        introP.style.display = "none";
+        quizQuestion.innerHTML = "<h1 id='quiz-question' class='text-center'>Would you like to <span id='question-text'>make a new list?</span></h1>";
+    }
+
+
+    // ---------- EVENT LISTENERS ---------- //
+
+    // event listener for start quiz button
+    buttonOriginal.addEventListener("click", startQuiz);
+
 }
 
-// ---------- EVENT LISTENERS ---------- //
-
-// event listener for start quiz button
-buttonOriginal.addEventListener("click", startQuiz);
-
+// on page load, render current bucket list (if exists)
+// and listen for start quiz click
 loadBucketList();
