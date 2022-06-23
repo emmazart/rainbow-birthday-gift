@@ -206,6 +206,7 @@ var loadQuestion = function () {
     // set local storage
     localStorage.setItem("bucketlist", JSON.stringify(bucketList));
 
+    // must reload between quiz takes in order to reset localstorage and not add on
     window.location.reload();
 
     // start loop again
